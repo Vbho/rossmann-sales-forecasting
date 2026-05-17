@@ -1,0 +1,10 @@
+Cluster,ClusterName,Model,RMSPE,R2,Training
+0,MID-VOLUME STORES,GradientBoosting,29.59,0.571,Per-Cluster
+0,MID-VOLUME STORES,RandomForest,32.68,0.461,Per-Cluster
+0,MID-VOLUME STORES,NeuralNetwork,34.17,0.453,Per-Cluster
+1,HIGH-VOLUME STORES,GradientBoosting,22.31,0.727,Per-Cluster
+1,HIGH-VOLUME STORES,RandomForest,27.55,0.521,Per-Cluster
+1,HIGH-VOLUME STORES,NeuralNetwork,32.65,0.298,Per-Cluster
+-1,All Stores,GradientBoosting,36.85,0.55,Global (baseline)
+-1,All Stores,RandomForest,42.04,0.365,Global (baseline)
+-1,All Stores,NeuralNetwork,45.18,0.264,Global (baseline)
